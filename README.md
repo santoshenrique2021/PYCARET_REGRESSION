@@ -8,7 +8,7 @@ Caso queira executar este notebook, recomenda-se instalar o arquivo *requirement
 
 ## Dinâmica
 
-A estrutura de instalação foi baseada através do Anaconda. Assim, as etapas a serem seguidas são:
+A estrutura de instalação foi baseada através do Anaconda, ou seja, a criação do *ambiente virtual*. Assim, as etapas a serem seguidas são:
 
 1. Abrir o **Anaconda Prompot**.
 2. Criar um ambiente virtual. Escreva  o nome que deseja no lugar de *nome_do_ambiente*.
