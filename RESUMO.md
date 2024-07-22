@@ -10,4 +10,7 @@ A crescente demanda por soluções em inteligência artificial, especialmente em
 3. Python.
 4. Regressão.
 
+## Público-alvo
+
+Estudantes, entusiastas e stakeholders que lidam com dados e desejam realizar modelagem preditiva de forma simples e eficiente, utilizando os principais métodos de machine learning.
 
