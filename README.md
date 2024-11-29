@@ -19,7 +19,7 @@ conda create --name nome_do_ambiente python=3.11.8
 ```bash 
 conda activate nome_do_ambiente
 ```
-4. Instalar o arquivo *requirements*. Nele estão todas as bibliotecas e versões utilizados na modelagem.
+4. Instalar o arquivo *requirements*. Nele estão todas as bibliotecas e versões utilizadas na modelagem.
 ```bash 
 conda install --yes --file requirements.txt
 ```
