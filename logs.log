@@ -312,3 +312,52 @@ dtype: int64}]))),
 
 [354 rows x 14 columns]
 2026-06-14 20:08:49,215:INFO:get_config() successfully completed......................................
+2026-06-14 20:12:28,280:INFO:Initializing get_config()
+2026-06-14 20:12:28,281:INFO:get_config(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001FC35B29F50>, variable=test)
+2026-06-14 20:12:28,281:INFO:Variable: 'test' used to return the transformed values in PyCaret 2.x. From PyCaret 3.x, this will return the raw values. If you need the transformed values, call get_config with 'test_transformed' instead.
+2026-06-14 20:12:28,328:INFO:Variable:  returned as      AREA  QUARTOS  BANHEIROS  ANDARES FLAG_CENTRO FLAG_QUARTO_HOSPEDE  \
+483  6615     3.00        NaN        2         SIM                 NAO   
+172  8400      NaN       1.00        2         SIM                 SIM   
+144  4700     4.00       1.00        2         SIM                 SIM   
+367  3630     2.00       1.00        1         SIM                 NAO   
+324  4500     3.00       1.00        2         NAO                 NAO   
+..    ...      ...        ...      ...         ...                 ...   
+43   6000     4.00       2.00        4         SIM                 NAO   
+213  4995     4.00       2.00        1         SIM                 NAO   
+348  3150     2.00        NaN        1         NAO                 NAO   
+428  4040     2.00       1.00        1         SIM                 NAO   
+453  3069     2.00       1.00        1         SIM                 NAO   
+
+    FLAG_PORAO FLAG_AGUA_MORNA FLAG_AR_CONDICIONADO  VAGAS_ESTACIONAMENTO  \
+483        NAO             NaN                  NAO                  0.00   
+172        SIM             NAO                  SIM                  2.00   
+144        SIM             NAO                  SIM                  1.00   
+367        NAO             NaN                  SIM                  0.00   
+324        SIM             NAO                  SIM                  0.00   
+..         ...             ...                  ...                   ...   
+43         NAO             NAO                  NAO                  2.00   
+213        SIM             NaN                  NAO                  0.00   
+348        SIM             NAO                  NAO                  0.00   
+428        NAO             NAO                  NAO                  1.00   
+453        NAO             NAO                  NAO                  1.00   
+
+    FLAG_AREA_PREFERENCIAL     MOBILIADA    PRECO  
+483                    NAO  PARCIALMENTE  2940000  
+172                    SIM           NAO  5250000  
+144                    NAO           SIM  5600000  
+367                    NAO           NAO  3675000  
+324                    NAO  PARCIALMENTE  4007500  
+..                     ...           ...      ...  
+43                     NAO  PARCIALMENTE  7700000  
+213                    NAO  PARCIALMENTE  4893000  
+348                    NAO  PARCIALMENTE  3815000  
+428                    NAO           NaN  3325000  
+453                    NAO           NaN  3150000  
+
+[191 rows x 13 columns]
+2026-06-14 20:12:28,328:INFO:get_config() successfully completed......................................
+2026-06-14 20:19:31,971:INFO:gpu_param set to False
+2026-06-14 20:19:32,328:INFO:Soft dependency imported: xgboost: 2.0.3
+2026-06-14 20:19:32,341:INFO:Soft dependency imported: catboost: 1.2.3
+2026-06-14 20:19:32,657:INFO:Soft dependency imported: xgboost: 2.0.3
+2026-06-14 20:19:32,667:INFO:Soft dependency imported: catboost: 1.2.3
