@@ -1,0 +1,314 @@
+2026-06-14 19:20:35,500:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-06-14 19:20:35,500:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-06-14 19:20:35,500:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-06-14 19:20:35,500:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-06-14 20:06:07,657:INFO:PyCaret RegressionExperiment
+2026-06-14 20:06:07,659:INFO:Logging name: EXP_REGRESSAO
+2026-06-14 20:06:07,660:INFO:ML Usecase: MLUsecase.REGRESSION
+2026-06-14 20:06:07,660:INFO:version 3.3.0
+2026-06-14 20:06:07,661:INFO:Initializing setup()
+2026-06-14 20:06:07,661:INFO:self.USI: 654a
+2026-06-14 20:06:07,661:INFO:self._variable_keys: {'exp_name_log', '_available_plots', 'gpu_param', 'X_test', 'fold_groups_param', 'seed', 'y_test', 'log_plots_param', 'n_jobs_param', 'transform_target_param', 'fold_generator', 'pipeline', 'X_train', 'target_param', 'fold_shuffle_param', 'y', 'idx', 'gpu_n_jobs_param', 'memory', 'exp_id', '_ml_usecase', 'logging_param', 'html_param', 'X', 'data', 'USI', 'y_train'}
+2026-06-14 20:06:07,661:INFO:Checking environment
+2026-06-14 20:06:07,661:INFO:python_version: 3.11.8
+2026-06-14 20:06:07,662:INFO:python_build: ('main', 'Feb 26 2024 21:34:05')
+2026-06-14 20:06:07,662:INFO:machine: AMD64
+2026-06-14 20:06:07,662:INFO:platform: Windows-10-10.0.26200-SP0
+2026-06-14 20:06:07,664:INFO:Memory: svmem(total=8266518528, available=1051348992, percent=87.3, used=7215169536, free=1051348992)
+2026-06-14 20:06:07,665:INFO:Physical Core: 4
+2026-06-14 20:06:07,665:INFO:Logical Core: 8
+2026-06-14 20:06:07,666:INFO:Checking libraries
+2026-06-14 20:06:07,667:INFO:System:
+2026-06-14 20:06:07,668:INFO:    python: 3.11.8 | packaged by Anaconda, Inc. | (main, Feb 26 2024, 21:34:05) [MSC v.1916 64 bit (AMD64)]
+2026-06-14 20:06:07,669:INFO:executable: C:\Users\zaian\anaconda3\envs\pycaret_regression\python.exe
+2026-06-14 20:06:07,669:INFO:   machine: Windows-10-10.0.26200-SP0
+2026-06-14 20:06:07,669:INFO:PyCaret required dependencies:
+2026-06-14 20:06:08,045:INFO:                 pip: 23.3.1
+2026-06-14 20:06:08,045:INFO:          setuptools: 68.2.2
+2026-06-14 20:06:08,045:INFO:             pycaret: 3.3.0
+2026-06-14 20:06:08,046:INFO:             IPython: 8.22.2
+2026-06-14 20:06:08,046:INFO:          ipywidgets: 8.1.2
+2026-06-14 20:06:08,046:INFO:                tqdm: 4.66.2
+2026-06-14 20:06:08,046:INFO:               numpy: 1.26.4
+2026-06-14 20:06:08,047:INFO:              pandas: 1.5.3
+2026-06-14 20:06:08,047:INFO:              jinja2: 3.1.3
+2026-06-14 20:06:08,047:INFO:               scipy: 1.11.4
+2026-06-14 20:06:08,047:INFO:              joblib: 1.3.2
+2026-06-14 20:06:08,047:INFO:             sklearn: 1.4.1.post1
+2026-06-14 20:06:08,048:INFO:                pyod: 1.1.3
+2026-06-14 20:06:08,048:INFO:            imblearn: 0.12.0
+2026-06-14 20:06:08,048:INFO:   category_encoders: 2.6.3
+2026-06-14 20:06:08,048:INFO:            lightgbm: 4.3.0
+2026-06-14 20:06:08,048:INFO:               numba: 0.59.0
+2026-06-14 20:06:08,049:INFO:            requests: 2.31.0
+2026-06-14 20:06:08,049:INFO:          matplotlib: 3.7.5
+2026-06-14 20:06:08,049:INFO:          scikitplot: 0.3.7
+2026-06-14 20:06:08,049:INFO:         yellowbrick: 1.5
+2026-06-14 20:06:08,050:INFO:              plotly: 5.19.0
+2026-06-14 20:06:08,050:INFO:    plotly-resampler: Not installed
+2026-06-14 20:06:08,050:INFO:             kaleido: 0.2.1
+2026-06-14 20:06:08,050:INFO:           schemdraw: 0.15
+2026-06-14 20:06:08,050:INFO:         statsmodels: 0.14.1
+2026-06-14 20:06:08,051:INFO:              sktime: 0.27.0
+2026-06-14 20:06:08,051:INFO:               tbats: 1.1.3
+2026-06-14 20:06:08,051:INFO:            pmdarima: 2.0.4
+2026-06-14 20:06:08,051:INFO:              psutil: 5.9.8
+2026-06-14 20:06:08,051:INFO:          markupsafe: 2.1.5
+2026-06-14 20:06:08,052:INFO:             pickle5: Not installed
+2026-06-14 20:06:08,052:INFO:         cloudpickle: 3.0.0
+2026-06-14 20:06:08,052:INFO:         deprecation: 2.1.0
+2026-06-14 20:06:08,052:INFO:              xxhash: 3.4.1
+2026-06-14 20:06:08,053:INFO:           wurlitzer: Not installed
+2026-06-14 20:06:08,053:INFO:PyCaret optional dependencies:
+2026-06-14 20:06:08,275:INFO:                shap: 0.45.0
+2026-06-14 20:06:08,276:INFO:           interpret: Not installed
+2026-06-14 20:06:08,276:INFO:                umap: Not installed
+2026-06-14 20:06:08,276:INFO:     ydata_profiling: Not installed
+2026-06-14 20:06:08,276:INFO:  explainerdashboard: Not installed
+2026-06-14 20:06:08,276:INFO:             autoviz: Not installed
+2026-06-14 20:06:08,276:INFO:           fairlearn: Not installed
+2026-06-14 20:06:08,277:INFO:          deepchecks: Not installed
+2026-06-14 20:06:08,277:INFO:             xgboost: 2.0.3
+2026-06-14 20:06:08,277:INFO:            catboost: 1.2.3
+2026-06-14 20:06:08,277:INFO:              kmodes: Not installed
+2026-06-14 20:06:08,277:INFO:             mlxtend: Not installed
+2026-06-14 20:06:08,277:INFO:       statsforecast: Not installed
+2026-06-14 20:06:08,277:INFO:        tune_sklearn: Not installed
+2026-06-14 20:06:08,277:INFO:                 ray: Not installed
+2026-06-14 20:06:08,278:INFO:            hyperopt: 0.2.7
+2026-06-14 20:06:08,278:INFO:              optuna: 3.6.0
+2026-06-14 20:06:08,278:INFO:               skopt: 0.10.1
+2026-06-14 20:06:08,278:INFO:              mlflow: Not installed
+2026-06-14 20:06:08,278:INFO:              gradio: Not installed
+2026-06-14 20:06:08,278:INFO:             fastapi: Not installed
+2026-06-14 20:06:08,278:INFO:             uvicorn: Not installed
+2026-06-14 20:06:08,278:INFO:              m2cgen: Not installed
+2026-06-14 20:06:08,278:INFO:           evidently: Not installed
+2026-06-14 20:06:08,278:INFO:               fugue: Not installed
+2026-06-14 20:06:08,278:INFO:           streamlit: Not installed
+2026-06-14 20:06:08,279:INFO:             prophet: Not installed
+2026-06-14 20:06:08,279:INFO:None
+2026-06-14 20:06:08,279:INFO:Set up data.
+2026-06-14 20:06:08,374:INFO:Set up folding strategy.
+2026-06-14 20:06:08,376:INFO:Set up train/test split.
+2026-06-14 20:06:08,411:INFO:Set up index.
+2026-06-14 20:06:08,414:INFO:Assigning column types.
+2026-06-14 20:06:08,429:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2026-06-14 20:06:08,431:INFO:Engine for model 'lasso' has not been set explicitly, hence returning None.
+2026-06-14 20:06:08,448:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2026-06-14 20:06:08,460:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2026-06-14 20:06:08,628:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2026-06-14 20:06:08,765:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2026-06-14 20:06:08,770:INFO:Soft dependency imported: xgboost: 2.0.3
+2026-06-14 20:06:08,780:INFO:Soft dependency imported: catboost: 1.2.3
+2026-06-14 20:06:09,021:INFO:Engine for model 'lasso' has not been set explicitly, hence returning None.
+2026-06-14 20:06:09,037:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2026-06-14 20:06:09,051:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2026-06-14 20:06:09,226:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2026-06-14 20:06:09,356:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2026-06-14 20:06:09,358:INFO:Soft dependency imported: xgboost: 2.0.3
+2026-06-14 20:06:09,370:INFO:Soft dependency imported: catboost: 1.2.3
+2026-06-14 20:06:09,372:INFO:Engine successfully changes for model 'lasso' to 'sklearn'.
+2026-06-14 20:06:09,394:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2026-06-14 20:06:09,410:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2026-06-14 20:06:09,585:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2026-06-14 20:06:09,704:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2026-06-14 20:06:09,706:INFO:Soft dependency imported: xgboost: 2.0.3
+2026-06-14 20:06:09,713:INFO:Soft dependency imported: catboost: 1.2.3
+2026-06-14 20:06:09,728:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2026-06-14 20:06:09,743:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2026-06-14 20:06:09,923:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2026-06-14 20:06:10,047:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2026-06-14 20:06:10,051:INFO:Soft dependency imported: xgboost: 2.0.3
+2026-06-14 20:06:10,059:INFO:Soft dependency imported: catboost: 1.2.3
+2026-06-14 20:06:10,060:INFO:Engine successfully changes for model 'ridge' to 'sklearn'.
+2026-06-14 20:06:10,087:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2026-06-14 20:06:10,250:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2026-06-14 20:06:10,414:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2026-06-14 20:06:10,416:INFO:Soft dependency imported: xgboost: 2.0.3
+2026-06-14 20:06:10,428:INFO:Soft dependency imported: catboost: 1.2.3
+2026-06-14 20:06:10,460:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2026-06-14 20:06:10,615:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2026-06-14 20:06:10,758:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2026-06-14 20:06:10,762:INFO:Soft dependency imported: xgboost: 2.0.3
+2026-06-14 20:06:10,773:INFO:Soft dependency imported: catboost: 1.2.3
+2026-06-14 20:06:10,775:INFO:Engine successfully changes for model 'en' to 'sklearn'.
+2026-06-14 20:06:11,012:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2026-06-14 20:06:11,173:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2026-06-14 20:06:11,174:INFO:Soft dependency imported: xgboost: 2.0.3
+2026-06-14 20:06:11,183:INFO:Soft dependency imported: catboost: 1.2.3
+2026-06-14 20:06:11,362:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2026-06-14 20:06:11,496:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2026-06-14 20:06:11,501:INFO:Soft dependency imported: xgboost: 2.0.3
+2026-06-14 20:06:11,505:INFO:Soft dependency imported: catboost: 1.2.3
+2026-06-14 20:06:11,507:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2026-06-14 20:06:11,676:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2026-06-14 20:06:11,774:INFO:Soft dependency imported: xgboost: 2.0.3
+2026-06-14 20:06:11,780:INFO:Soft dependency imported: catboost: 1.2.3
+2026-06-14 20:06:11,991:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2026-06-14 20:06:12,139:INFO:Soft dependency imported: xgboost: 2.0.3
+2026-06-14 20:06:12,147:INFO:Soft dependency imported: catboost: 1.2.3
+2026-06-14 20:06:12,148:INFO:Engine successfully changes for model 'svm' to 'sklearn'.
+2026-06-14 20:06:12,517:INFO:Soft dependency imported: xgboost: 2.0.3
+2026-06-14 20:06:12,525:INFO:Soft dependency imported: catboost: 1.2.3
+2026-06-14 20:06:12,892:INFO:Soft dependency imported: xgboost: 2.0.3
+2026-06-14 20:06:12,901:INFO:Soft dependency imported: catboost: 1.2.3
+2026-06-14 20:06:12,923:INFO:Preparing preprocessing pipeline...
+2026-06-14 20:06:12,923:INFO:Set up simple imputation.
+2026-06-14 20:06:12,942:INFO:Set up encoding of ordinal features.
+2026-06-14 20:06:12,968:INFO:Set up encoding of categorical features.
+2026-06-14 20:06:12,969:INFO:Set up feature normalization.
+2026-06-14 20:06:13,379:INFO:Finished creating preprocessing pipeline.
+2026-06-14 20:06:13,652:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\zaian\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['AREA', 'QUARTOS', 'BANHEIROS',
+                                             'ANDARES',
+                                             'VAGAS_ESTACIONAMENTO'],
+                                    transformer=SimpleImputer(strategy='median'))),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['FLAG_CENTRO',
+                                             'FLAG_QUARTO_HOSPEDE',
+                                             'FLAG_PORAO', 'FLAG_...
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': NAO    0
+SIM    1
+NaN   -1
+dtype: int64},
+                                                                        {'col': 'MOBILIADA',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': NAO             0
+PARCIALMENTE    1
+SIM             2
+NaN            -1
+dtype: int64}]))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['MOBILIADA'],
+                                    transformer=OneHotEncoder(cols=['MOBILIADA'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=MinMaxScaler()))])
+2026-06-14 20:06:13,652:INFO:Creating final display dataframe.
+2026-06-14 20:06:15,072:INFO:Setup _display_container:                     Description          Value
+0                    Session id           1935
+1                        Target          PRECO
+2                   Target type     Regression
+3           Original data shape      (545, 14)
+4        Transformed data shape      (545, 15)
+5   Transformed train set shape      (354, 15)
+6    Transformed test set shape      (191, 15)
+7               Ignore features              1
+8              Ordinal features              7
+9              Numeric features              5
+10         Categorical features              7
+11     Rows with missing values          56.5%
+12                   Preprocess           True
+13              Imputation type         simple
+14           Numeric imputation         median
+15       Categorical imputation           mode
+16     Maximum one-hot encoding             25
+17              Encoding method           None
+18                    Normalize           True
+19             Normalize method         minmax
+20               Fold Generator          KFold
+21                  Fold Number             10
+22                     CPU Jobs             -1
+23                      Use GPU          False
+24               Log Experiment          False
+25              Experiment Name  EXP_REGRESSAO
+26                          USI           654a
+2026-06-14 20:06:15,489:INFO:Soft dependency imported: xgboost: 2.0.3
+2026-06-14 20:06:15,498:INFO:Soft dependency imported: catboost: 1.2.3
+2026-06-14 20:06:15,849:INFO:Soft dependency imported: xgboost: 2.0.3
+2026-06-14 20:06:15,856:INFO:Soft dependency imported: catboost: 1.2.3
+2026-06-14 20:06:15,859:INFO:setup() successfully completed in 8.23s...............
+2026-06-14 20:08:36,169:INFO:Initializing get_config()
+2026-06-14 20:08:36,170:INFO:get_config(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001FC35B29F50>, variable=train)
+2026-06-14 20:08:36,171:INFO:Variable: 'train' used to return the transformed values in PyCaret 2.x. From PyCaret 3.x, this will return the raw values. If you need the transformed values, call get_config with 'train_transformed' instead.
+2026-06-14 20:08:36,186:INFO:Variable:  returned as      AREA  QUARTOS  BANHEIROS  ANDARES FLAG_CENTRO FLAG_QUARTO_HOSPEDE  \
+229  9667     4.00       2.00        2         SIM                 SIM   
+114  6800      NaN       1.00        1         SIM                 SIM   
+405  3060     3.00       1.00        1         SIM                 NAO   
+81   4000     3.00       2.00        2         SIM                 NAO   
+469  4600     2.00        NaN        1         SIM                 NAO   
+..    ...      ...        ...      ...         ...                 ...   
+57   9000     4.00       2.00        4         SIM                 SIM   
+288  5040     3.00        NaN        2         SIM                 NAO   
+413  1950     3.00       2.00        2         SIM                 NAO   
+96   9000      NaN       1.00        1         SIM                 NAO   
+257  8250     3.00       1.00        1         SIM                 NAO   
+
+    FLAG_PORAO FLAG_AGUA_MORNA FLAG_AR_CONDICIONADO  VAGAS_ESTACIONAMENTO  \
+229        SIM             NAO                  NAO                  1.00   
+114        SIM             NAO                  NAO                   NaN   
+405        NAO             NAO                  NAO                  0.00   
+81         SIM             NAO                  SIM                  1.00   
+469        NAO             NAO                  NAO                  0.00   
+..         ...             ...                  ...                   ...   
+57         NAO             NAO                  SIM                   NaN   
+288        SIM             NAO                  SIM                  0.00   
+413        SIM             NAO                  NAO                  0.00   
+96         SIM             NAO                  NAO                   NaN   
+257        NAO             NAO                  NAO                  0.00   
+
+    FLAG_AREA_PREFERENCIAL     MOBILIADA    PRECO  
+229                    NAO  PARCIALMENTE  4690000  
+114                    NAO           SIM  6020000  
+405                    NaN           NAO  3465000  
+81                     NAO  PARCIALMENTE  6615000  
+469                    NAO           SIM  3010000  
+..                     ...           ...      ...  
+57                     SIM           SIM  7245000  
+288                    NAO           NAO  4200000  
+413                    NaN           NAO  3430000  
+96                     SIM           SIM  6300000  
+257                    NAO           SIM  4480000  
+
+[354 rows x 13 columns]
+2026-06-14 20:08:36,187:INFO:get_config() successfully completed......................................
+2026-06-14 20:08:49,155:INFO:Initializing get_config()
+2026-06-14 20:08:49,155:INFO:get_config(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001FC35B29F50>, variable=X_train_transformed)
+2026-06-14 20:08:49,214:INFO:Variable: X_train returned as      AREA  QUARTOS  BANHEIROS  ANDARES  FLAG_CENTRO  FLAG_QUARTO_HOSPEDE  \
+229  0.55     0.60       0.33     0.33         1.00                 1.00   
+114  0.35     0.40       0.00     0.00         1.00                 1.00   
+405  0.10     0.40       0.00     0.00         1.00                 0.00   
+81   0.16     0.40       0.33     0.33         1.00                 0.00   
+469  0.20     0.20       0.00     0.00         1.00                 0.00   
+..    ...      ...        ...      ...          ...                  ...   
+57   0.51     0.60       0.33     1.00         1.00                 1.00   
+288  0.23     0.40       0.00     0.33         1.00                 0.00   
+413  0.02     0.40       0.33     0.33         1.00                 0.00   
+96   0.51     0.40       0.00     0.00         1.00                 0.00   
+257  0.45     0.40       0.00     0.00         1.00                 0.00   
+
+     FLAG_PORAO  FLAG_AGUA_MORNA  FLAG_AR_CONDICIONADO  VAGAS_ESTACIONAMENTO  \
+229        1.00             0.00                  0.00                  0.33   
+114        1.00             0.00                  0.00                  0.00   
+405        0.00             0.00                  0.00                  0.00   
+81         1.00             0.00                  1.00                  0.33   
+469        0.00             0.00                  0.00                  0.00   
+..          ...              ...                   ...                   ...   
+57         0.00             0.00                  1.00                  0.00   
+288        1.00             0.00                  1.00                  0.00   
+413        1.00             0.00                  0.00                  0.00   
+96         1.00             0.00                  0.00                  0.00   
+257        0.00             0.00                  0.00                  0.00   
+
+     FLAG_AREA_PREFERENCIAL  MOBILIADA_1.0  MOBILIADA_2.0  MOBILIADA_0.0  
+229                    0.00           1.00           0.00           0.00  
+114                    0.00           0.00           1.00           0.00  
+405                    0.00           0.00           0.00           1.00  
+81                     0.00           1.00           0.00           0.00  
+469                    0.00           0.00           1.00           0.00  
+..                      ...            ...            ...            ...  
+57                     1.00           0.00           1.00           0.00  
+288                    0.00           0.00           0.00           1.00  
+413                    0.00           0.00           0.00           1.00  
+96                     1.00           0.00           1.00           0.00  
+257                    0.00           0.00           1.00           0.00  
+
+[354 rows x 14 columns]
+2026-06-14 20:08:49,215:INFO:get_config() successfully completed......................................
