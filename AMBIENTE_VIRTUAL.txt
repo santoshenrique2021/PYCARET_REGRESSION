@@ -1,0 +1,9 @@
+#Etapa 1 - definir o diretório
+
+cd C:\Users\zaian\OneDrive\Other_Stuff\One Note\GitHub\PYCARET_REGRESSION
+
+#Etapa 2 - ativar o ambiente virtual
+conda activate pycaret_regression
+
+#Etapa 3 - abrir o jupyter
+jupyter notebook
