@@ -12,7 +12,7 @@
    * **Pós-doutorado**: Estatística (UFPE).
 
 * **Atuação profissional**:
-    * Desde 2020, trabalho na área de ciência de dados voltado a negócios, seja no analytics quanto na modelagem. Atualmente trabalho na FSBR (Fábrica de Software do Brasil), alocado na SEFAZ-PE realizando projetos de inteligência artificial.
+    * Desde 2020, trabalho na área de ciência de dados, analytics e modelagem. Atualmente trabalho na FSBR (Fábrica de Software do Brasil), alocado na SEFAZ-PE realizando projetos de inteligência artificial visando a otimização de processos de tributação fiscal.
 
 ### Contato
 1. E-mail: santos.henrique624@gmail.com
@@ -21,13 +21,13 @@
 
 ## Finalidade
 
-Este repositório corresponde a um tutorial de como utilizar a biblioteca *PyCaret*, AutoML low-code, que **automatiza todo o workflow de modelagem**. 
+Este repositório corresponde a um tutorial de como utilizar a biblioteca  [PyCaret](https://pycaret.gitbook.io/docs), AutoML low-code, que **automatiza todo o workflow de modelagem**. 
 
 Por meio de **poucas linhas de código**, é possível construir um pipeline de um projeto de machine learning e comparar o **poder preditivo de vários algoritmos**.
 
 Um exemplo sobre a estimação de preço de imóveis (**regressão supervisionada**) é utilizado para ilustrar o potencial de uso desta biblioteca.
 
->> **Aprendizado Supervisionado**: Previsão de uma variável alvo contínua a partir de um conjunto de variáveis independentes, que podem ser quantitativas ou qualitativas. Assim, a partir de dados históricos é possível realizar este mapeamento preditivo.
+> **Aprendizado Supervisionado**: Previsão de uma variável alvo contínua a partir de um conjunto de variáveis independentes, que podem ser quantitativas ou qualitativas. Assim, a partir de dados históricos é possível realizar este mapeamento preditivo.
 
 
 ## Instruções de instalação
